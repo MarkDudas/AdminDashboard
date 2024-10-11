@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /> </svg>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="home">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  class="home-icon"><title>home</title><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>  
+                <h3>Home</h3>
+            </div>
+           <div class="profile">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="profile-icon" fill="#5f6368"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg>
+            <h3>Profile</h3>
+           </div>
+           <div class="message">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="message-icon" fill="#5f6368"><path d="M80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+            <h3>Messages</h3>
+           </div>
+
+           <div class="history">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="history-icon" fill="#5f6368"><path d="M480-120q-138 0-240.5-91.5T122-440h82q14 104 92.5 172T480-200q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h110v80H120v-240h80v94q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm112-192L440-464v-216h80v184l128 128-56 56Z"/></svg>
+            <h3>History</h3>
+           </div>
+
+           <div class="task">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="task-icon" fill="#5f6368"><path d="m438-240 226-226-58-58-169 169-84-84-57 57 142 142ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>
+            <h3>Tasks</h3>
+           </div>
+
+           <div class="communities">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="communities-icon"
+            fill="#5f6368"><path d="M360-320q33 0 56.5-23.5T440-400q0-33-23.5-56.5T360-480q-33 0-56.5 23.5T280-400q0 33 23.5 56.5T360-320Zm240 0q33 0 56.5-23.5T680-400q0-33-23.5-56.5T600-480q-33 0-56.5 23.5T520-400q0 33 23.5 56.5T600-320ZM480-520q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0 440q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+            <h3>Communities</h3>
+           </div>
+
+           <div class="settings">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="settings-icon"
+            fill="#5f6368"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg>
+            <h3>Settings</h3>
+           </div>
+
+           <div class="support">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" class="support-icon"
+            fill="#5f6368"><path d="M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+            <h3>Support</h3>
+           </div>
+
+           <div class="privacy">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="privacy-icon"
+             fill="#5f6368"><path d="m438-338 226-226-57-57-169 169-84-84-57 57 141 141Zm42 258q-139-35-229.5-159.5T160-516v-244l320-120 320 120v244q0 152-90.5 276.5T480-80Zm0-84q104-33 172-132t68-220v-189l-240-90-240 90v189q0 121 68 220t172 132Zm0-316Z"/></svg>
+            <h3>Privacy</h3>
+           </div>
+
+        </div>
+        
+        <div class="header">
+            <div class="header-top">
+                <div class="form">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="search" viewBox="0 0 24 24"><title>search-web</title><path d="M15.5,14L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5M9.5,4.5L8.95,4.53C8.71,5.05 8.34,5.93 8.07,7H10.93C10.66,5.93 10.29,5.05 10.05,4.53C9.87,4.5 9.69,4.5 9.5,4.5M13.83,7C13.24,5.97 12.29,5.17 11.15,4.78C11.39,5.31 11.7,6.08 11.93,7H13.83M5.17,7H7.07C7.3,6.08 7.61,5.31 7.85,4.78C6.71,5.17 5.76,5.97 5.17,7M4.5,9.5C4.5,10 4.58,10.53 4.73,11H6.87L6.75,9.5L6.87,8H4.73C4.58,8.47 4.5,9 4.5,9.5M14.27,11C14.42,10.53 14.5,10 14.5,9.5C14.5,9 14.42,8.47 14.27,8H12.13C12.21,8.5 12.25,9 12.25,9.5C12.25,10 12.21,10.5 12.13,11H14.27M7.87,8L7.75,9.5L7.87,11H11.13C11.21,10.5 11.25,10 11.25,9.5C11.25,9 11.21,8.5 11.13,8H7.87M9.5,14.5C9.68,14.5 9.86,14.5 10.03,14.47C10.28,13.95 10.66,13.07 10.93,12H8.07C8.34,13.07 8.72,13.95 8.97,14.47L9.5,14.5M13.83,12H11.93C11.7,12.92 11.39,13.69 11.15,14.22C12.29,13.83 13.24,13.03 13.83,12M5.17,12C5.76,13.03 6.71,13.83 7.85,14.22C7.61,13.69 7.3,12.92 7.07,12H5.17Z" /></svg>
+                    <input type="search"  class="search-input" name="search-bar" id="search-bar">
+                </div>
+                <div class="right-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="notification" viewBox="0 0 24 24"><title>bell-badge</title><path d="M21 6.5C21 8.43 19.43 10 17.5 10S14 8.43 14 6.5 15.57 3 17.5 3 21 4.57 21 6.5M19 11.79C18.5 11.92 18 12 17.5 12C14.47 12 12 9.53 12 6.5C12 5.03 12.58 3.7 13.5 2.71C13.15 2.28 12.61 2 12 2C10.9 2 10 2.9 10 4V4.29C7.03 5.17 5 7.9 5 11V17L3 19V20H21V19L19 17V11.79M12 23C13.11 23 14 22.11 14 21H10C10 22.11 10.9 23 12 23Z" /></svg>
+                    <img src="https://images.vexels.com/media/users/3/201936/isolated/preview/5b55eb9b6c602cbb03021575782db5ca-cute-circle-shape.png" class="cute-img" alt="cute">
+                    <p class="profile-name">Mark Dudas</p>
+                </div>
+            </div>
+            <div class="header-bot">
+                <div class="left-bot">
+                    <img src="https://images.vexels.com/media/users/3/201936/isolated/preview/5b55eb9b6c602cbb03021575782db5ca-cute-circle-shape.png" class="cute-img1" alt="cute">
+                    <div class="container-text">
+                        <p class="first-text">Hi there,</p>
+                        <p class="second-text">Mark Dudas (@Mark)</p>
+                    </div>
+                      
+                </div>
+                <div class="right-bot">
+                    <button class="right-button">New</button>
+                    <button class="right-button">Upload</button>
+                    <button class="right-button">Share</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="main-content-containers">
+                <div class="left-main">
+                    <p class="your">Your Projects</p>
+                        <div class="cards-container">
+                        <div class="card">
+                            <div class="card-text">
+                                <p class="heading">Super Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="boticons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="share" ><title>share</title><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="eye" ><title>eye-circle-outline</title><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M12,8C14.63,8 17,9.57 18,12C16.62,15.31 12.81,16.88 9.5,15.5C7.92,14.84 6.66,13.58 6,12C7,9.57 9.37,8 12,8M12,9.5A2.5,2.5 0 0,0 9.5,12A2.5,2.5 0 0,0 12,14.5A2.5,2.5 0 0,0 14.5,12A2.5,2.5 0 0,0 12,9.5" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fav"><title>file-star</title><path d="M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z" /></svg>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="card-text">
+                                <p class="heading">Less Cool Project</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="boticons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="share" ><title>share</title><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="eye" ><title>eye-circle-outline</title><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M12,8C14.63,8 17,9.57 18,12C16.62,15.31 12.81,16.88 9.5,15.5C7.92,14.84 6.66,13.58 6,12C7,9.57 9.37,8 12,8M12,9.5A2.5,2.5 0 0,0 9.5,12A2.5,2.5 0 0,0 12,14.5A2.5,2.5 0 0,0 14.5,12A2.5,2.5 0 0,0 12,9.5" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fav"><title>file-star</title><path d="M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z" /></svg>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="card-text">
+                                <p class="heading">Impossible App</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="boticons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="share" ><title>share</title><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="eye" ><title>eye-circle-outline</title><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M12,8C14.63,8 17,9.57 18,12C16.62,15.31 12.81,16.88 9.5,15.5C7.92,14.84 6.66,13.58 6,12C7,9.57 9.37,8 12,8M12,9.5A2.5,2.5 0 0,0 9.5,12A2.5,2.5 0 0,0 12,14.5A2.5,2.5 0 0,0 14.5,12A2.5,2.5 0 0,0 12,9.5" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fav"><title>file-star</title><path d="M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z" /></svg>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="card-text">
+                                <p class="heading">Super Peasy App</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="boticons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="share" ><title>share</title><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="eye" ><title>eye-circle-outline</title><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M12,8C14.63,8 17,9.57 18,12C16.62,15.31 12.81,16.88 9.5,15.5C7.92,14.84 6.66,13.58 6,12C7,9.57 9.37,8 12,8M12,9.5A2.5,2.5 0 0,0 9.5,12A2.5,2.5 0 0,0 12,14.5A2.5,2.5 0 0,0 14.5,12A2.5,2.5 0 0,0 12,9.5" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fav"><title>file-star</title><path d="M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z" /></svg>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="card-text">
+                                <p class="heading">Ad Blocker</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="boticons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="share" ><title>share</title><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="eye" ><title>eye-circle-outline</title><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M12,8C14.63,8 17,9.57 18,12C16.62,15.31 12.81,16.88 9.5,15.5C7.92,14.84 6.66,13.58 6,12C7,9.57 9.37,8 12,8M12,9.5A2.5,2.5 0 0,0 9.5,12A2.5,2.5 0 0,0 12,14.5A2.5,2.5 0 0,0 14.5,12A2.5,2.5 0 0,0 12,9.5" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fav"><title>file-star</title><path d="M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z" /></svg>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card">
+                            <div class="card-text">
+                                <p class="heading">Money Maker</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="boticons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="share" ><title>share</title><path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="eye" ><title>eye-circle-outline</title><path d="M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,11A1,1 0 0,1 13,12A1,1 0 0,1 12,13A1,1 0 0,1 11,12A1,1 0 0,1 12,11M12,8C14.63,8 17,9.57 18,12C16.62,15.31 12.81,16.88 9.5,15.5C7.92,14.84 6.66,13.58 6,12C7,9.57 9.37,8 12,8M12,9.5A2.5,2.5 0 0,0 9.5,12A2.5,2.5 0 0,0 12,14.5A2.5,2.5 0 0,0 14.5,12A2.5,2.5 0 0,0 12,9.5" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fav"><title>file-star</title><path d="M14 2H6C4.89 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2M14.5 18.9L12 17.5L9.5 19L10.2 16.2L8 14.3L10.9 14.1L12 11.4L13.1 14L16 14.2L13.8 16.1L14.5 18.9M13 9V3.5L18.5 9H13Z" /></svg>
+                            </div>
+                            
+                        </div>
+                   
+                      
+                    </div>
+                    
+                </div>
+
+                <div class="right-main">
+                    <div class="top-right">
+                        <p class="your">Announcements</p>
+                        <div class="announcements-card">
+                            <p class="heading">Site Maintenance</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem quidem possimus </p>
+                            <div class="divider"></div>
+
+                            <p class="heading">Community Share Day</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto </p>
+                            <div class="divider"></div>
+                            
+                            <p class="heading">Updated Privacy Policy</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto </p>
+
+                        </div>
+                      
+                    </div>
+                    <div class="bot-right">
+                        <p class="your">Trending</p>
+
+                        <div class="trendings-card">
+                           <div class="trending-container">
+                            <div class="first-trending">
+                                <img src="https://www.clipartmax.com/png/middle/433-4336850_stallions-horse-circle-png.png" class="horse" alt="">
+                                <div class="container-text">
+                                    <p>@tegan</p>
+                                    <p>World Peace Builder</p>
+                                </div>
+                            </div>
+
+                            <div class="first-trending">
+                                <img src="https://e7.pngegg.com/pngimages/352/83/png-clipart-round-spider-man-face-logo-spider-man-venom-youtube-flash-thompson-deadpool-spider-man-heroes-superhero.png" class="horse" alt="">
+                                <div class="container-text">
+                                    <p>@morgan</p>
+                                    <p>Super Cool Project</p>
+                                </div>
+                            </div>
+
+                            <div class="first-trending">
+                                <img src="https://pbs.twimg.com/profile_images/1625422461415358464/Sk582CIv_400x400.png" class="horse" alt="">
+                                <div class="container-text">
+                                    <p>@morgan</p>
+                                    <p>Super Cool Project</p>
+                                </div>
+                            </div>
+
+                            <div class="first-trending">
+                                <img src="https://nftmagic.art/wp-content/uploads/QmT27RXuidC8jj1RjM6zfnNxmWYPAsLWKZ1dbnCTkHCWSB.png" class="horse" alt="">
+                                <div class="container-text">
+                                    <p>@morgan</p>
+                                    <p>Super Cool Project</p>
+                                </div>
+                            </div>
+                       
+                           </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+    </div>
+   
+</body>
+</html>
